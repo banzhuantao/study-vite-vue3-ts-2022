@@ -1,9 +1,19 @@
-<script setup lang="ts">
+<!--
+  @description 介绍文件的作用、文件的入参、出参
+-->
+
+<script lang="ts" setup>
 </script>
 
 <template>
-  <div>Hello</div>
+  <div>haha</div>
 </template>
 
-<style scoped>
+<script>
+export default {
+  name: "App"
+}
+</script>
+
+<style lang="less" scoped>
 </style>
