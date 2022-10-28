@@ -3,17 +3,20 @@
 -->
 
 <script lang="ts" setup>
+import DashboardPage from "@/components/dashboard.vue";
 </script>
 
 <template>
   <div>haha</div>
+
+  <dashboard-page/>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "App"
 }
 </script>
 
-<style lang="less" scoped>
+<style scoped>
 </style>

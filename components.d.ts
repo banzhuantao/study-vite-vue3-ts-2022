@@ -7,5 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Dashboard: typeof import('./src/components/dashboard.vue')['default']
   }
 }
